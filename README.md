@@ -4,7 +4,7 @@ Create custom dishes, eat them up, and view both the eaten and uneaten dishes. U
 
     * Eat Da Burger is a restaurant app that allows users to input the name of the dish that they would like to eat.
 
-    * Whenever a user submits the name of a dish, the app will display the dish on the left sixde of the page.
+    * Whenever a user submits the name of a dish, the app will display the dish on the left side of the page.
 
     * Click the 'EAT' button to devour the food!
 
