@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Roboto');
+/* font-family: 'Joti One', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+	margin: 0;
+    background: rgb(134, 5, 5);
+}
+
+header {
+    /* background: black; */
+    background: rgb(3, 3, 138);
+    margin-bottom: 50px;
+    margin-top: 75px;
+	height: 100px;
+	display: flex;
+    align-items: center;
+    font-family: 'Joti One', cursive;
+    border-bottom: 8px solid #f5f50a;
+    border-top: 8px solid #f5f50a;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+h1 {
+	margin: 0 0 0 100px;
+	color: #fff;
+	font-size: 60px;
+}
+ 
+ img {
+     width: 175px;
+     height: 300px;
+     border: 8px solid white;
+     border-radius: 5px;
+     position: absolute;
+     margin: 30px 30px 0 0;
+     right: 15px;
+     top: 10px;
+     box-shadow: 4px 8px 16px rgba(0, 0, 0, .5);
+ }
+
+span {
+	font-size: 0.85em;
+	background: #B31B1B;
+	color: white;
+	padding: 3px 5px 3px 5px;
+	border-radius: 4px;
+	margin-left: 5px;
+}
+
+button {
+    display: inline;
+}
+
+.devour-burger-form {
+	display: inline;
+}
+
+#burgers-container {
+	display: flex;
+}
+
+#burgers-available {
+	flex-grow: 1;
+	padding: 0.5em 2em 1.7em 2em;
+	background: black;
+    margin: 1em 1em 1em 0;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 2px 8px whitesmoke;
+}
+
+#burgers-devoured {
+	flex-grow: 1;
+	background: white;
+	padding: 0.5em 2em 1.7em 2em;
+    margin: 1em 0 1em 1em;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}
+
+h2 {
+    font-family: 'Joti One', cursive;
+    font-size: 30px;
+}
+
+.wrapper {
+	max-width: 67%;
+    margin: 50px auto;
+}
+
+#create-burger {
+	display: flex;
+	justify-content: center;
+	padding-top: 55px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.burger {
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eat-btn {
+	margin-right: 0.7em;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #f5f50a;
+    border: 2px solid blue;
+}
+
+.eat-btn:hover {
+    opacity: 0.6;
+    transition-duration: 0.3s;
+    
+}
+
+#submit-btn {
+	padding: 0.57em 1em 0.57em 1em;
+	font-size: 1.5em;
+	background: rgb(3, 3, 138);
+	border: none;
+    margin-left: -5px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;  
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #f5f50a 50%, rgb(3, 3, 138) 50%);
+    background-size: 200% 1%;
+    box-shadow: .3rem .3rem .2rem rgba(0, 0, 0, .08);
+    transition: all 2s ease-in-out;
+}
+
+#submit-btn:hover {
+    opacity: 0.6;
+    background-size: 200% 200%;
+}
+#burger-name {
+	padding: 0.5em 1em 0.5em 1em;
+    font-size: 1.5em;
+    border-radius: 5px 0 0 5px;
+}
